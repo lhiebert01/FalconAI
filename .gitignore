@@ -1,6 +1,8 @@
 # Streamlit secrets and environment variables
 .env
-.streamlit/
+# Streamlit secrets only
+.streamlit/secrets.toml
+.streamlit/*.json
 
 # Python
 __pycache__/
